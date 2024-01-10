@@ -1,0 +1,23 @@
+Day 10: Learning Debugging and List operations
+
+Q1. Debug the code below
+
+print("100 Days of Code QUIZ")
+print()
+print("How many can you answer correctly?)
+ans1 = ("What language are we writing in?")
+if ans1 == "python":
+  print("Correct")
+else:
+  print("Nope🙈
+ans2 = input("Which lesson number is this?")
+if(ans2>12):
+print("We're not quite that far yet")
+else:
+  print("We've gone well past that!")
+elif(ans2==12):
+  print("That's right!")
+
+Q.2 Given a list of numbers, output "bingo" if it contains the input number.
+
+x = [42, 8, 7, 1, 0, 124, 8897, 555, 3, 67, 99]
