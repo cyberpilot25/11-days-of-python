@@ -1,0 +1,22 @@
+Day 23: Learning tuple unpacking and sets
+
+Q1. Tuples can be used to output multiple values from a function. You need to make a function called calc(), that will take the side length of a square as its argument and return the perimeter and area using a tuple.
+The perimeter is the sum of all sides, while the area is the square of the side length.
+
+Sample Input
+3
+
+Sample Output
+Perimeter: 12
+Area: 9
+
+Hint: The given code takes a number from user input, passes it to the calc() function, and uses unpacking to get the returned values.
+
+Q2. (Sets)
+
+You are working on a recruitment platform, which should match the available jobs and the candidates based on their skills.
+The skills required for the job, and the candidate's skills are stored in sets.
+
+Complete the program to output the matched skill.
+
+Hint: You can use the intersect operator to get the values present in both sets.
